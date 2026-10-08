@@ -1,0 +1,516 @@
+/* ============ Mobile adaptation (<=860px) ============ */
+@media (max-width: 860px){
+  html{overflow-x:clip}
+  body{max-width:100vw}
+  .blob{display:none}
+  .refs-deco,.reviews-deco{width:100%!important;max-width:100%!important;height:auto!important}
+  .gear-card{width:100%!important;min-width:0!important}
+  .mv-pink,.mv-decide,.rs-card,.st-card,.zn-card{width:100%!important;min-width:0!important;max-width:100%!important}
+  .zn-grid,.mv-grid,.rs-grid,.vz-items,.es-grid{grid-template-columns:1fr 1fr!important;width:100%!important;gap:10px!important}
+  .p8-order .container,.p8-order-card,.p8-form{display:block!important;width:100%!important}
+  .p8-order .select,.p8-order .inp,.p8-order .textarea,.p8-order .photo-row,.p8-form .select,.p8-form .inp,.p8-form .textarea{width:100%!important;max-width:100%!important}
+  .pack,.pack-list,.mat-items,.mstep{width:100%!important;min-width:0!important;max-width:100%!important}
+  .mstep{flex-direction:column!important;gap:10px!important}
+  .gs-right,.not-right,.not-col,.sched-card{width:100%!important;min-width:0!important;max-width:100%!important}
+  .gs-right,.not-right{flex-direction:column!important;gap:14px!important}
+  .sched-row,.gear-row,.steps-row{flex-wrap:wrap!important}
+
+
+  /* header */
+  .header{background:rgba(255,250,252,.96)}
+  .header-in{width:100%;height:64px;padding:0 16px}
+  .logo{position:static;width:44px;height:44px}
+  .nav{
+    display:none;position:absolute;top:64px;left:0;right:0;z-index:60;
+    background:#fff;flex-direction:column;align-items:flex-start;gap:0;
+    padding:8px 16px 16px;box-shadow:0 18px 30px rgba(160,90,115,.14);
+  }
+  .nav.open{display:flex}
+  .nav a{padding:12px 4px;font-size:16px;width:100%;border-bottom:1px solid var(--border)}
+  .header-right{position:absolute;left:auto;right:72px;top:10px;height:44px;transform:none;gap:0}
+  .header-phone{display:none}
+  .header-cta{display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border-radius:50%;background:var(--pink);border:none;box-sizing:border-box;box-shadow:0 8px 20px rgba(229,83,126,.32)}
+  .header-cta .cta-text{display:none}
+  .header-cta .cta-icon{display:block!important;width:22px!important;height:22px!important;filter:none!important;mix-blend-mode:normal!important}
+  .burger{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:44px;height:44px;border-radius:50%;background:#fff;box-shadow:0 4px 14px rgba(160,90,115,.18)}
+  .burger span{background:var(--pink)}
+
+  /* generic */
+  .container{max-width:calc(100% - 32px)}
+  .sec-title{font-size:30px;line-height:1.2;text-align:center}
+  .sec-sub{font-size:14.5px}
+  .kicker{font-size:12px}
+  main section{padding-left:16px;padding-right:16px}
+
+  /* hero */
+  .hero{padding:28px 16px 48px}
+  .hero-in{flex-direction:column;align-items:stretch;gap:20px}
+  .hero-left{display:contents}
+  .hero-badge{align-self:flex-start;order:1;text-align:left;max-width:100%;font-size:10px;letter-spacing:.05em;padding:6px 13px;margin-bottom:0!important}
+  .hero h1{order:2;white-space:normal;font-size:30px;line-height:1.15;text-align:left;max-width:100%}
+  .hero-lead{order:3;width:100%;max-width:340px;margin:0;font-size:14.5px;line-height:1.65;text-align:left}
+  .hero-right{order:4;width:100%;margin-bottom:0}
+  .hero-deco,.hero-backdrop,.hero-photo-bg{display:none}
+  .hero-photo{height:396px;margin:0 0 0 -32px;width:calc(100% + 64px);border-radius:26px;box-shadow:none}
+  .hero-stat{position:absolute;left:22px;bottom:64px;right:auto;top:auto;margin-top:0;padding:12px 20px;gap:12px;border-radius:20px;background:#fff;box-shadow:0 10px 24px rgba(160,90,115,.20);z-index:3}
+  .hero-stat b{font-size:26px}
+  .hero-stat span{font-size:12px;line-height:1.4}
+  .hero-feats{order:7;flex-direction:column;gap:10px;padding-top:0;align-items:flex-start}
+  .hero-feat{flex-direction:row;align-items:center;gap:12px;width:100%}
+  .hero-cta{order:6;flex-direction:column;gap:12px;padding-top:4px}
+  .hero-cta .btn-pink{width:100%;padding:15px 24px;font-size:15px}
+
+  /* trust */
+  .trust{padding:0 16px 48px}
+  .trust-in{gap:28px}
+  .trust-grid{flex-direction:column;align-items:stretch;gap:20px;width:100%}
+  .trust-item{width:100%}
+
+  /* about */
+  .about{margin:56px auto 80px;width:100%;max-width:calc(100% - 32px)}
+  .about-in{flex-direction:column;align-items:stretch;gap:24px;padding:24px;border-radius:28px}
+  .about-left{width:100%}
+  .about h2{font-size:30px;line-height:1.2}
+  .about p{font-size:15.5px;line-height:1.7}
+  .about-photo{width:100%;height:300px}
+
+  /* services */
+  .services{padding:0 16px 48px}
+  .services-in{gap:16px}
+  .serv-grid{grid-template-columns:1fr;grid-auto-rows:auto;gap:16px;padding-top:0}
+  .serv-card>img{height:210px}
+  .serv-body h3,.serv-body p{white-space:normal}
+  .serv-row{flex-direction:column;gap:16px;margin-top:0}
+  .serv-mini{width:100%}
+  .serv-mini p br{display:none}
+  .serv-wide{flex-direction:column;padding:16px;gap:16px;min-height:0}
+  .serv-wide>img{width:100%;height:210px;border-radius:16px}
+  .serv-wide-body{width:100%;padding:0;gap:12px}
+  .serv-wide-body h3{font-size:24px}
+  .serv-wide-body>p br{display:none}
+  .wide-feat span br{display:none}
+
+  /* carousels */
+  .refs,.reviews{padding:48px 16px 56px}
+  .refs-in,.reviews-in{padding:0;gap:16px}
+  .refs-track-wrap,.rev-track-wrap{width:100%;padding:4px 0 8px}
+  .ref-card{width:300px}
+  .rev-card{width:300px}
+  .rev-card{padding:20px 20px 18px}
+  .rev-text{font-size:14px;line-height:1.65}
+  .rev-stars{right:16px;top:20px}
+  .arrows{justify-content:center;padding-top:0}
+  .refs .dots,.reviews .dots{align-self:center}
+
+  /* team */
+  .team{padding:0 16px 48px}
+  .team-in{gap:24px}
+  .team-grid{grid-template-columns:1fr;gap:16px}
+  .team-card.center{grid-column:auto}
+  .team-card{min-height:0}
+
+  /* order */
+  .order{min-height:0}
+  .order-card{width:100%;max-width:calc(100% - 32px);margin:32px auto;padding:24px 20px;gap:24px}
+  .order-head h2{font-size:28px;text-align:center}
+  .order-cols{flex-direction:column;gap:24px}
+  .order-col{gap:18px}
+  .inputs-row{flex-wrap:wrap;gap:10px}
+  .inp{width:100%;min-width:0}
+  .textarea{min-height:110px}
+
+  /* faq */
+  .faq{padding:48px 16px 56px}
+  .faq-in{gap:24px}
+  .faq-list{width:100%;gap:10px}
+  .faq-item{padding:16px 18px}
+  .faq-q h3{font-size:15px}
+  .faq-a{width:100%}
+
+  /* footer */
+  .footer{padding:36px 0 24px}
+  .footer-in{width:100%;padding:0 16px;gap:28px}
+  .footer-cols{flex-direction:column;gap:24px}
+  .footer-col{max-width:100%}
+  .footer-logo{width:72px;height:72px}
+  .footer-bottom{flex-direction:column;gap:8px;text-align:center}
+
+  /* cross-page hero / card fixes */
+  .sv-right,.p8-hero-right,.hs-hero-right{width:100%!important;max-width:100%!important}
+  .sv-deco,.p8-deco,.hs-hero-deco,.hero5-deco,.p11-hero-deco{width:calc(100% - 16px)!important;left:8px!important;right:8px!important;max-width:100%!important}
+  .sv-photo,.p8-photo,.sv-photo img{width:100%!important;height:300px!important;max-width:100%!important}
+  .sv-stat{left:10px!important;right:10px!important;bottom:-20px!important;max-width:calc(100% - 20px)!important}
+  .sv-stat span{white-space:normal}
+  .inc-grid,.inc-list{width:100%!important;grid-template-columns:1fr 1fr!important;gap:10px!important}
+  .inc-it,.work-card,.p11-fcard{width:auto!important;min-width:0!important;max-width:100%!important}
+  .p8-stats{flex-wrap:wrap;gap:10px}
+  .p8-stat{width:auto!important;min-width:0!important}
+  .hero5-mark{max-width:180px!important;height:auto!important}
+  .hs-hero-chip{max-width:calc(100% - 16px)!important}
+  .sf-al,.sf-pills,.sf-disclaimer{max-width:100%!important;overflow-wrap:break-word;word-break:break-word}
+  .p8-hero-left,.p8-lead{max-width:100%!important}
+
+  /* flex-row section roots -> stack */
+  .sv-row,.p8-hero{flex-direction:column!important;gap:16px!important}
+  .inc-div,.inc-row{flex-direction:column!important;gap:14px!important;width:100%!important}
+  .inc-tags{width:100%!important;flex-wrap:wrap;min-width:0!important}
+  .inc-grid{width:100%!important}
+  .mstep-right,.inc-right2,.zone-card,.zone-head,.p8-complex-card,.p8-complex-head,.mt-card{width:100%!important;min-width:0!important;max-width:100%!important}
+  .zone-head,.p8-complex-head,.mstep-head{flex-direction:column!important;align-items:flex-start!important;gap:8px!important}
+  .hs-hero-chip{left:8px!important;right:8px!important;width:auto!important;max-width:100%!important}
+  .sf-al,.sf-pills,.sf-disclaimer{margin-left:0!important;margin-right:0!important;width:100%!important}
+
+  /* ===== refinement to match p01_mobile reference ===== */
+  /* trust: compact icon+text rows (like reference) */
+  .trust{padding:0 16px 32px}
+  .trust-in{gap:16px}
+  .trust-grid{display:grid;grid-template-columns:1fr;gap:10px}
+  .trust-item{
+    display:grid;grid-template-columns:44px 1fr;gap:2px 12px;align-items:center;
+    text-align:left;background:#fff;border:1px solid var(--border);border-radius:16px;padding:12px 14px;
+  }
+  .trust-ic{grid-row:1/3;align-self:center;width:44px;height:44px;border-radius:22px;font-size:19px}
+  .trust-item h3{grid-column:2;font-size:15px;line-height:1.25;padding:0;white-space:normal}
+  .trust-item p{grid-column:2;font-size:12.5px;line-height:1.45;white-space:normal}
+
+  /* services: compact horizontal cards (photo left, text right) */
+  .services{padding:0 16px 32px}
+  .services-in{gap:12px}
+  .services .sec-title{font-size:24px}
+  .services .sec-sub{font-size:13.5px}
+  .serv-grid{gap:10px}
+  .serv-card{position:relative;flex-direction:row;align-items:stretch;border-radius:18px}
+  .serv-card>img{position:absolute;left:0;top:0;width:30%;height:100%;min-height:0;object-fit:cover;border-radius:0}
+  .serv-body{flex:0 0 70%;width:70%;margin-left:30%;padding:10px 12px 10px 13px;gap:4px;justify-content:center;min-width:0}
+  .serv-body h3{font-size:13.5px;line-height:1.22}
+  .serv-body p{font-size:11.5px;line-height:1.38;flex:0 1 auto}
+  .serv-body p br{display:none}
+  .serv-more{padding:4.8px 12px;font-size:13.2px}
+  .serv-mini{position:relative;height:auto;flex-direction:row;align-items:stretch;border-radius:18px}
+  .serv-mini>img{position:absolute;left:0;top:0;width:30%;height:100%;min-height:0;object-fit:cover;border-radius:0}
+  .serv-mini .serv-body{flex:0 0 70%;width:70%;margin-left:30%;padding:10px 12px 10px 13px;min-width:0}
+  .serv-mini .serv-body h3{font-size:13.5px;line-height:1.22}
+  .serv-mini .serv-body p{font-size:11.5px;line-height:1.38;flex:0 1 auto}
+  .serv-mini .serv-body p br{display:none}
+  .wide-feat{display:none}
+  .serv-wide{padding:14px;gap:12px}
+  .serv-wide>img{height:190px}
+  .serv-wide-body{padding:0;gap:10px}
+  .serv-wide-body h3{font-size:22px}
+  .serv-wide-body>p{font-size:13.5px;line-height:1.55}
+  .wide-bottom{flex-wrap:wrap;gap:10px}
+
+  /* team: compact 2-column grid */
+  .team{padding:0 16px 32px}
+  .team-in{gap:14px}
+  .team-grid{grid-template-columns:1fr 1fr!important;gap:8px}
+  .team-card{padding:10px 8px 9px;min-height:0;gap:4px;border-radius:18px;text-align:center}
+  .team-card img{width:84px;height:84px;border-width:3px}
+  .team-card h3{font-size:13.5px;line-height:1.2;padding-top:0}
+  .team-role{font-size:10.5px;line-height:1.35;padding-top:0}
+  .team-badge{font-size:9.5px;padding:3px 8px}
+
+  /* refs / reviews: tighter bands */
+  .refs{padding:40px 16px 44px}
+  .reviews{padding:40px 16px 44px}
+
+  /* footer: 2-column grid */
+  .footer{padding:32px 0 20px}
+  .footer-in{gap:22px}
+  .footer-cols{display:grid;grid-template-columns:1fr 1fr;gap:20px 14px}
+  .footer-col{max-width:none;gap:12px;min-width:0}
+  .footer-col *{min-width:0;max-width:100%}
+  .socials{flex-wrap:wrap;gap:8px}
+  .soc{padding:6px 12px;font-size:12px}
+  .footer-desc{font-size:13px;line-height:1.5}
+  .contact b{white-space:normal;overflow-wrap:anywhere}
+
+  /* narrow phones (<=360): single-column stacks for tight grids */
+  .sv-stat b{font-size:19px!important;line-height:1.2}
+}
+
+@media (max-width: 320px){
+  .ref-card,.rev-card{width:calc(100vw - 64px)}
+}
+
+/* ===== decorative frames: hug the photo, no empty pink areas (mobile) ===== */
+@media (max-width: 860px){
+  .p7 .sv-deco{height:calc(100% + 12px)!important;top:-12px!important}
+  .hero5-deco{height:calc(100% + 12px)!important;top:-12px!important}
+  .p11-hero-deco{display:none!important}
+}
+
+/* ===== narrow phones (<=360): single column for tight grids ===== */
+@media (max-width: 360px){
+  .footer-cols,.cats,.steps,.steps-grid,.hs-how-grid,.hs-method-grid,.hs-other-grid,.hs-tools-grid,
+  .prep-grid,.st-grid,.strip-grid,.p8-refs-grid,.p8-other-grid,.p11-other-grid,.p11-steps-grid,
+  .inc-grid,.inc-list,.gear,.ba-row,.dop-list,.gs-tags,.m-bullets,.mat-items,.v-list,.mt-grid,.zbig-list,.sched-grid,.zones,.mv-cols,.rs-grid,.vz-items,.zn-grid{grid-template-columns:1fr!important}
+  .hero h1{font-size:26px;line-height:1.2}
+}
+
+/* ===== index.html: mobile geometry refinement ===== */
+@media (max-width: 860px){
+  /* hero: h1 -> text -> photo -> buttons -> 3 feats (each on own line, icon left) */
+  .hero{padding:24px 16px 40px}
+  .hero-in{gap:14px}
+  .hero-in .hero-feats{order:7;flex-direction:column;align-items:flex-start;justify-content:flex-start;margin-top:0!important;padding-top:0;gap:10px}
+  .hero-right{order:5;width:100%;height:auto;margin-top:0!important}
+  .hero-in .hero-feat{flex-direction:row;align-items:center;justify-content:flex-start;text-align:left;gap:12px;width:100%;background:none;border:none;border-radius:0;padding:0}
+  .hero-in .hero-feat-ic{width:30px;height:30px;font-size:13px;border-radius:15px}
+  .hero-in .hero-feat span{font-size:15px;line-height:1.35;color:var(--body2);white-space:nowrap}
+  .hero-right{order:5}
+  .hero-in .hero-cta{order:6;gap:10px;margin-top:0}
+  .hero-more{display:inline-flex;justify-content:center;align-items:center;width:100%;
+    padding:14px 24px;border-radius:99px;background:#fff;border:1.5px solid #F3C6D8;
+    color:var(--pink3);font-size:15px;font-weight:600;box-sizing:border-box}
+  /* trust: equal card heights, uniform gaps */
+
+  /* services: equal card heights */
+  .serv-grid{grid-auto-rows:1fr}
+  /* team: equal card heights */
+  .team-grid{grid-auto-rows:1fr}
+  /* order: all fields full width */
+  .inputs-row{flex-direction:column;gap:10px}
+  /* faq: uniform rows */
+  .faq-item{min-height:76px}
+}
+
+/* ===== all pages: hero badge / h1 / description — same fixes as index ===== */
+@media (max-width: 860px){
+  .hero-badge,.hs-badge,.s03-badge,.p8-badge,.z10-badge{
+    align-self:flex-start!important;text-align:left!important;
+    font-size:10px!important;letter-spacing:.05em!important;
+    padding:6px 13px!important;max-width:100%!important}
+  .sv-left h1,.hs-hero h1,.s03-hero h1,.z10-hero h1,.p8-h1,.hero5 h1,.p11-hero-left h1{
+    font-size:30px!important;line-height:1.15!important;
+    text-align:left!important;align-self:stretch!important;max-width:100%!important}
+  .sv-lead,.hs-hero-lead,.hs-hero-lead p,.s03-lead,.z10-lead,.p8-lead,.p8-lead p,
+  .hero5-lead,.hero5-lead p,.p11-hero-lead{
+    max-width:300px!important;margin-left:0!important;margin-right:0!important;
+    text-align:left!important;font-size:14.5px!important;line-height:1.65!important}
+  .sv-lead br{display:none!important}
+  .p11-hero-left{width:100%!important;max-width:100%!important}
+  .s03-hero-float,.hs-hero-chip{
+    position:absolute!important;left:14px!important;right:auto!important;
+    top:auto!important;bottom:14px!important;width:auto!important;
+    max-width:calc(100% - 28px)!important;margin:0!important;white-space:normal!important}
+}
+@media (max-width: 360px){
+  .sv-left h1,.hs-hero h1,.s03-hero h1,.z10-hero h1,.p8-h1,.hero5 h1,.p11-hero-left h1{
+    font-size:26px!important;line-height:1.2!important}
+}
+
+/* ===== index.html: support for restructured blocks (desktop geometry pass) ===== */
+@media (max-width: 860px){
+  .serv-img{width:100%;height:200px;flex:none;border-radius:16px}
+  .serv-mini{height:auto}
+  .refs .arrows,.reviews .arrows{margin-top:0}
+  .reviews .btn-pink{margin-top:0}
+  .team-center{margin-top:0}
+  .order-col{flex:0 0 auto}
+  .footer-col{width:100%}
+}
+
+/* ===== ЕДИНЫЙ МОБИЛЬНЫЙ HERO (как на главной): фото full-bleed, радиус 26, без подложек ===== */
+@media (max-width: 860px){
+  /* обертки/контейнеры фото — от края до края экрана (при любом отступе контейнера) */
+  .sv-right,.p8-hero-right,.hs-hero-right,.s03-hero-right,.z10-hero-right,.p11-hero-photo,.hero5-photo{
+    margin:10px calc((100% - 100vw) / 2) 0;width:100vw!important;max-width:none!important;position:relative;
+  }
+  .p11-hero-right,.hero5-right{width:100%!important}
+  .p11-hero-photo,.hero5-photo{height:396px!important;border-radius:26px!important;overflow:hidden!important;box-shadow:none!important}
+  /* фото: полная ширина, высота 396, скругление 26, без теней */
+  .sv-photo,.p8-photo,.p8-photo img,.s03-hero-photo,.s03-hero-photo img,
+  .hs-hero-photo,.hs-hero-photo img,.z10-hero-photo,.z10-hero-photo img,
+  .p11-hero-photo > img,.hero5-photo > img:not(.hero5-mark){
+    width:100%!important;height:396px!important;max-width:none!important;margin:0!important;
+    border-radius:26px!important;box-shadow:none!important;object-fit:cover;overflow:hidden;
+  }
+  .sv-hero .sv-photo,.p7 .sv-photo,.p9 .sv-photo{height:396px!important;border-radius:26px!important;box-shadow:none!important;margin:0!important}
+  /* декоративные подложки за фото — удалены на десктопе; здесь страховка */
+  .p8-deco,.hs-hero-deco,.s03-hero-deco,.z10-hero-deco,.hero5-deco,.p11-hero-deco{display:none!important}
+  /* плашки на фото — только на главной; на остальных страницах скрыть */
+  .s03-hero-float,.hs-hero-chip,.p11-hero-pill,.hero5-chip{display:none!important}
+}
+
+/* ===== финальная полировка: без переполнений текста ===== */
+@media (max-width: 860px){
+  /* чипы-статы в hero услуг: 3 в одном ряду, значения Playfair 17/600 */
+  .sv-stats,.p8-stats,.p11-stats{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+  .sv-stat,.p11-stat,.p8-stat{min-width:0!important;padding:12px 6px!important}
+  .sv-stat span,.p11-stat span,.p8-stat span{font-size:9px!important;letter-spacing:.02em!important;white-space:normal!important}
+  .sv-stat b,.p11-stat b,.p8-stat b{font-family:var(--serif)!important;font-size:17px!important;font-weight:600!important;line-height:1.2!important;white-space:normal!important;overflow-wrap:break-word;min-width:0}
+  /* карточки услуг: переносы строк не склеивают слова */
+  .serv-body h3,.serv-body p,.serv-mini .serv-body h3,.serv-mini .serv-body p{white-space:normal!important}
+}
+
+/* ===== полировка: узкие экраны (≤360) — метки чипов компактнее ===== */
+@media (max-width: 360px){
+  .sv-stats,.p8-stats,.p11-stats{gap:4px!important}
+  .sv-stat,.p11-stat,.p8-stat{padding:12px 4px!important}
+  .sv-stat span,.p11-stat span,.p8-stat span,.p8-stat em{font-size:8px!important;letter-spacing:.01em!important}
+}
+
+/* ======================================================================
+   ЕДИНАЯ СИСТЕМА МОБИЛЬНЫХ ИНФОРМАЦИОННЫХ КАРТОЧЕК (все страницы)
+   Эталон: белая карточка 100% ширины, бейдж-круг 30px, заголовок 16px,
+   описание 13.5px, список с розовым маркером, нижняя розовая плашка.
+   ====================================================================== */
+@media (max-width: 860px){
+  /* -- стек: все контейнеры карточек — одна колонка, единый gap -- */
+  .steps,.p-in,.steps-grid,.p8-steps-row,.st-grid,.p11-steps-grid,.hs-method-grid,.hs-how-grid,.hs-fit-grid,
+  .msteps,.pack-grid,.zcards,.vaz,.zones,.zn-grid,.gear,.sched-grid,.fit-row,.mt-grid,
+  .p8-zgrid,.p8-fgrid,.p8-equip-grid,.p8-prep-grid,.prep-grid,.p11-comp-grid,
+  .hs-designer-tags,.es-grid,.inc-row,.inc-div,.inc-top,.inc-bottom,
+  .not-right,.prog-right,.prog-left,.p8-know,.inc-grid,.e-cols,.z-cols,.p8-know-col{
+    display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important;
+  }
+
+  /* -- карточка: единый каркас -- */
+  .step,.prep-item,.prep-card,.mstep,.pack,.zcard,.p8-zcard,.p8-fcard,.p8-ecard,.p8-step,.p8-prep-item,
+  .zone-card,.zone,.zn-card,.pk-card,.gear-card,.sched-card,.fit-card,.mt-card,.st-card,
+  .p11-zcard,.p11-fcard,.p11-ocard,.p11-step,.p11-regular,.hs-step,.hs-how-step,.hs-fit-card,.hs-tagcard,.hs-exclude-card,
+  .v-card,.inc-card,.extra-strip,.not-card{
+    width:100%!important;max-width:none!important;box-sizing:border-box!important;
+    background:#fff!important;border:1px solid var(--border)!important;border-radius:20px!important;
+    padding:16px 14px!important;margin:0!important;height:auto!important;min-height:0!important;
+    display:block!important;
+  }
+  /* розовые карточки-исключения («не входит» и др.) сохраняют свой фон */
+  .fit-card.no,.pack.pink,.sched-card.no,.z-card--pink,.e-card--pink,.p8-fcard-pink,.p8-ecard-pink,
+  .not-card,.hs-tagcard,.p8-know{
+    background:var(--pinkbg)!important;border-color:#F7DCE6!important;
+  }
+
+  /* -- бейдж / номер: единый круг 30px -- */
+  .step b,.step .num,.step-num,.prep-num,.p8-step-num,.p8-num,.prep-item .num,.mstep-left b,
+  .st-card b,.st-num,.mt-num,.p11-fnum,.p11-step-num,.hs-step-num,.hs-how-step b{
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    width:30px!important;height:30px!important;border-radius:50%!important;flex:none!important;
+    background:var(--pinkbg3)!important;color:var(--pink2)!important;
+    font-family:var(--serif)!important;font-size:13px!important;font-weight:600!important;
+    margin:0!important;line-height:1!important;
+  }
+  .zone-head img,.z-ic,.p8-ic,.p11-zic,.fit-ic,.pack .pic,.pack .pic img{
+    width:30px!important;height:30px!important;border-radius:50%!important;object-fit:contain!important;
+    background:var(--pinkbg3)!important;padding:5px!important;box-sizing:border-box!important;flex:none!important;margin:0!important;
+  }
+
+  /* -- заголовок -- */
+  .step h3,.prep-item h3,.prep-card h3,.mstep-left h3,.pack h3,.zcard h3,.zone-card h3,.zone h4,.zn-card h4,
+  .pk-card :is(h2,h3),.sched-card .sched-t,.fit-card h3,.mt-card h3,.st-card h3,.p11-zcard h3,.p11-fcard h3,.p11-step h3,
+  .p11-ocard h3,.hs-step h3,.hs-how-step h3,.hs-fit-card h3,.hs-tagcard h4,.v-card h3,.gear-card :is(h2,h3),
+  .p8-zcard h3,.p8-fcard h3,.p8-ecard h3,.p8-step h3,.p8-prep-item h3,.not-card :is(h2,h3),.inc-card :is(h2,h3){
+font-size:16px!important;line-height:1.25!important;font-weight:700!important;color:var(--ink)!important;
+    margin:10px 0 4px!important;white-space:normal!important;overflow-wrap:break-word;
+  }
+
+  /* -- описание -- */
+  .step p,.prep-item p,.prep-card p,.mstep-left p,.zone p,.zn-card p,.sched-card .sched-d,.mt-card p,.st-card p,
+  .p11-step p,.p11-fcard-desc,.p11-ocard p,.hs-step p,.hs-how-step p,.v-card .v-sub,.p8-step p,.p8-fdesc,
+  .not-card p,.gear-card p,.inc-card p,.zone-extra p,.prog-extra p,.pk-card p,.prog-desc{
+    font-size:13.5px!important;line-height:1.5!important;color:var(--body)!important;margin:0!important;
+  }
+
+  /* -- списки: колонка, розовый маркер слева, текст справа -- */
+  .zone-list,.gear-grid,.gear-col,.inc-grid,.ck-list,.fit-list,.dot-list,.m-bullets,.p8-list,.v-list,
+  .zcard-list,.pack-list,.p11-checks,.prog-extra-list,.hs-step ul,.hs-tagcard ul,.hs-exclude-card ul,
+  .hs-fit-card ol,.p8-know-col,.not-col,.e-cols,.z-cols,.inc-tags,.mat-items{
+    display:flex!important;flex-direction:column!important;gap:8px!important;align-items:stretch!important;
+    margin:12px 0 0!important;padding:0!important;list-style:none!important;
+  }
+  .zone-it,.gear-it,.inc-it,.fit-it,.dot-it,.v-it,.not-it,.ck-list li,.p11-checks li,.p8-list li,
+  .hs-step li,.hs-tagcard li,.hs-exclude-card li,.hs-fit-card li,.p8-know-col li,
+  .m-bullets span,.zcard-list span,.pack-list span,.prog-extra-list span,.mat-items span{
+    display:flex!important;align-items:flex-start!important;gap:8px!important;min-width:0!important;
+    font-size:13.5px!important;line-height:1.45!important;color:var(--body)!important;margin:0!important;
+  }
+  .zone-it i,.gear-it i,.inc-it i,.fit-it i,.dot-it i,.v-it i,.p8-check,.ck-list li i,
+  .hs-exclude-card li i,.ck-list li::before,.inc-it i,.mat-items i{
+    flex:none!important;width:20px!important;height:20px!important;border-radius:50%!important;
+    background:var(--pinkbg3)!important;color:var(--pink2)!important;
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    font-size:10px!important;font-style:normal!important;margin:0!important;
+  }
+
+  /* -- нижняя розовая плашка -- */
+  .m-note,.pack-note,.mat-note,.v-note,.e-note,.sched-note,.fit-note,.p8-note,.p11-znote,.inc-note,
+  .mt-note,.z-dop,.zone-extra,.prog-extra,.hs-step-note,.prog-note,.task-note,.work-note{
+    background:var(--pinkbg)!important;border-radius:12px!important;padding:12px 14px!important;
+    margin:12px 0 0!important;font-size:13px!important;line-height:1.5!important;color:var(--body2)!important;
+  }
+
+  /* -- составные карточки: чипы-теги остаются горизонтальной лентой -- */
+  .inc-tags,.prog-chips{flex-direction:row!important;flex-wrap:wrap!important;align-items:flex-start!important;gap:6px!important}
+  .programs .prog-card{margin-bottom:10px!important}
+}
+
+/* ===== podderzhivayushchaya: компактный блок «В комплекс входит» (эталон моб.) ===== */
+@media (max-width: 860px){
+  .p7 .inc-card{padding:12px 12px!important}
+  .p7 .inc-card :is(h2,h3){margin:0 0 4px!important;font-size:14px!important;line-height:1.2!important;font-weight:700!important;color:var(--ink)!important}
+  .p7 .inc-div :is(h2,h3){font-size:13.5px!important}
+  .p7 .inc-card .inc-left h2{font-family:var(--serif)!important;font-size:24px!important;font-weight:600!important;line-height:1.15!important}
+  .p7 .inc-left p{font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important;margin:0!important}
+  .p7 .inc-grid{gap:5px!important;margin-top:10px!important}
+  .p7 .inc-it{gap:6px!important;font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important}
+  .p7 .inc-it span{min-width:0!important}
+  .p7 .inc-it i{width:16px!important;height:16px!important;font-size:9px!important;flex:none!important}
+  .p7 .inc-div{margin-top:10px!important;padding-top:10px!important;gap:8px!important}
+  .p7 .inc-paras{display:flex!important;flex-direction:column!important;gap:5px!important;margin:0!important;padding:0!important}
+  .p7 .inc-paras p{display:flex!important;align-items:flex-start!important;gap:6px!important;font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important;margin:0!important}
+  .p7 .inc-paras p::before{content:"✓"!important;flex:none!important;width:16px!important;height:16px!important;border-radius:50%!important;background:var(--pinkbg3)!important;color:var(--pink2)!important;display:flex!important;align-items:center!important;justify-content:center!important;font-size:9px!important;line-height:1!important;font-style:normal!important}
+}
+
+/* ===== «В комплекс входит»: ЕДИНЫЙ ЭТАЛОН на всех страницах (podderzh — референс) ===== */
+@media (max-width: 860px){
+  .inc-card{padding:12px 12px!important}
+  /* главный заголовок: Playfair Display 24 SemiBold */
+  .inc-card :is(.inc-left,.inc-title) h2{
+    font-family:var(--serif)!important;font-size:24px!important;font-weight:600!important;
+    line-height:1.15!important;margin:0 0 4px!important;color:var(--ink)!important;white-space:normal!important;
+  }
+  /* второстепенный заголовок раздела — компактный */
+  .inc-card h3{font-size:13.5px!important;line-height:1.2!important;margin:0 0 4px!important;font-weight:700!important;color:var(--ink)!important;white-space:normal!important}
+  /* весь текст: Manrope 15 Regular, lh 1.35 */
+  .inc-card p{font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important;margin:0!important}
+  /* пункты списка: 15px + розовый круг 16px */
+  .inc-card .inc-it{gap:6px!important;font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important}
+  .inc-card .inc-it span{min-width:0!important}
+  .inc-card .inc-it i{width:16px!important;height:16px!important;font-size:9px!important}
+  .inc-card :is(.inc-grid,.inc-list){gap:5px!important;margin-top:10px!important}
+  /* разделитель/нижняя секция: компактно */
+  .inc-card :is(.inc-div,.inc-bottom){margin-top:10px!important;padding-top:10px!important;gap:8px!important}
+  .inc-card .inc-right2{display:flex!important;flex-direction:column!important;gap:5px!important;min-width:0!important}
+  /* нижние абзацы -> пункты [✓] как в эталоне */
+  .inc-card .inc-paras p,.inc-card .inc-right2 p{
+    display:flex!important;align-items:flex-start!important;gap:6px!important;
+    font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body)!important;margin:0!important;
+  }
+  .inc-card .inc-paras p::before,.inc-card .inc-right2 p::before{
+    content:"✓"!important;flex:none!important;width:16px!important;height:16px!important;border-radius:50%!important;
+    background:var(--pinkbg3)!important;color:var(--pink2)!important;
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    font-size:9px!important;line-height:1!important;
+  }
+  /* нота (organizaciya) -> розовая плашка с текстом 15 Regular */
+  .inc-card .inc-note{
+    background:var(--pinkbg)!important;border-radius:12px!important;padding:12px 14px!important;margin-top:10px!important;
+    font-size:15px!important;font-weight:400!important;line-height:1.35!important;color:var(--body2)!important;
+  }
+  /* чипы доп. услуг (generalnaya) — компактная лента */
+  .inc-card .inc-tags{margin-top:10px!important;gap:6px!important}
+  .inc-card .inc-tag{font-size:13px!important;padding:7px 13px!important}
+}
+
+/* ===== SERVICES PAGES: унификация отзывов/FAQ на мобильных ===== */
+@media (max-width: 860px){
+  .reviews,.z10-reviews{padding:40px 16px 48px!important}
+  .sv-faq,.z10-faq,.faq{padding:40px 16px 56px!important}
+  .reviews .rev-track-wrap,.z10-reviews .rev-track-wrap{width:calc(100vw - 32px)!important;margin:0 16px!important}
+}
+
+/* ===== ДО/ПОСЛЕ: карточки адаптируются на средних ширинах (861–1239px) ===== */
+@media (min-width:861px) and (max-width:1239px){
+  .ba-row>.ba-card,.dop-track>.ref-card{flex:1 1 0!important;width:auto!important;min-width:0}
+}

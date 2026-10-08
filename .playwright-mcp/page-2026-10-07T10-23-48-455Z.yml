@@ -1,0 +1,428 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link [ref=f1e5] [cursor=pointer]:
+        - /url: "#"
+        - img "Чистота в деталях" [ref=f1e6]
+      - navigation [ref=f1e7]:
+        - link "О нас" [ref=f1e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Услуги" [ref=f1e9] [cursor=pointer]:
+          - /url: "#services"
+        - link "Референсы" [ref=f1e10] [cursor=pointer]:
+          - /url: "#refs"
+        - link "Команда" [ref=f1e11] [cursor=pointer]:
+          - /url: "#team"
+        - link "Отзывы" [ref=f1e12] [cursor=pointer]:
+          - /url: "#reviews"
+        - link "Контакты" [ref=f1e13] [cursor=pointer]:
+          - /url: "#footer"
+      - generic [ref=f1e14]:
+        - link "+7 909 903 55 86 Ежедневно с 08:00" [ref=f1e15] [cursor=pointer]:
+          - /url: tel:+79099035586
+          - generic [ref=f1e16]: +7 909 903 55 86
+          - text: Ежедневно с 08:00
+        - link "Рассчитать" [ref=f1e17] [cursor=pointer]:
+          - /url: "#order"
+  - main [ref=f1e18]:
+    - generic [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]: ✦ КЛИНИНГ В МОСКВЕ И МО
+        - heading "Уборка квартир, домов и помещений в Москве и МО" [level=1] [ref=f1e23]: Уборка квартир,домов и помещенийв Москве и МО
+        - paragraph [ref=f1e24]: "«Чистота в деталях» — это не просто уборка, а комплексный подход к чистоте и порядку в доме: генеральная, поддерживающая и локальная уборка, организация хранения и переезды."
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]:
+            - generic [ref=f1e27]: ✓
+            - generic [ref=f1e28]: Экологичныесредства
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30]: ✦
+            - generic [ref=f1e31]: Провереннаябригада
+          - generic [ref=f1e32]:
+            - generic [ref=f1e33]: ♡
+            - generic [ref=f1e34]: Пунктуальностьи забота
+        - generic [ref=f1e35]:
+          - link "Оставить заявку" [ref=f1e36] [cursor=pointer]:
+            - /url: "#order"
+          - link "Посмотреть услуги" [ref=f1e37] [cursor=pointer]:
+            - /url: "#services"
+      - generic [ref=f1e38]:
+        - img "Клинер за работой" [ref=f1e41]
+        - generic [ref=f1e42]:
+          - generic [ref=f1e43]: "16"
+          - generic [ref=f1e44]: лет создаёмчистоту и уют
+    - generic [ref=f1e46]:
+      - generic [ref=f1e47]:
+        - heading "Почему можно доверять?" [level=2] [ref=f1e48]
+        - paragraph [ref=f1e49]: Три вещи, о которых клиенты спрашивают чаще всего
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]:
+          - generic [ref=f1e52]: ✻
+          - heading "Выезд в день согласования" [level=3] [ref=f1e53]
+          - paragraph [ref=f1e54]: Подтверждаем заявку за 10 минут и приезжаем в удобное время — вплоть до сегодняшнего вечера.
+        - generic [ref=f1e55]:
+          - generic [ref=f1e56]: ♡
+          - heading "Оплата по договору" [level=3] [ref=f1e57]
+          - paragraph [ref=f1e58]: Фиксируем объём и стоимость до начала работ. Никаких доплат по ходу уборки — оплата после приёмки.
+        - generic [ref=f1e59]:
+          - generic [ref=f1e60]: ✓
+          - heading "Проверенные клинеры" [level=3] [ref=f1e61]
+          - paragraph [ref=f1e62]: Постоянная бригада с обучением и проверкой документов. Работаем со своей новой ветошью и эко-средствами.
+    - generic [ref=f1e64]:
+      - generic [ref=f1e65]:
+        - generic [ref=f1e66]: О КОМПАНИИ
+        - heading "Чистота в деталях — забота о главном" [level=2] [ref=f1e67]
+        - paragraph [ref=f1e68]: Приветствую! Меня зовут Екатерина Епринцева.
+        - paragraph [ref=f1e69]: Уже 16 лет я помогаю создавать в домах не просто чистоту и порядок, а уют и атмосферу, в которую хочется возвращаться.
+        - paragraph [ref=f1e70]: «Чистота в деталях» — это мой путь от горничной до основателя собственногобренда. Здесь каждая деталь про заботу, качество и любовь к дому.
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]: ♡
+          - generic [ref=f1e73]: С теплом,ваша Екатерина
+      - img "Екатерина Епринцева" [ref=f1e75]
+    - generic [ref=f1e77]:
+      - generic [ref=f1e78]:
+        - generic [ref=f1e79]: НАШИ УСЛУГИ
+        - heading "Что мы можем для вас сделать ✦" [level=2] [ref=f1e80]
+        - paragraph [ref=f1e81]: Выберите услугу — или закажите комплексное решение под ваш запрос
+      - generic [ref=f1e82]:
+        - article [ref=f1e83]:
+          - img "Генеральная уборка" [ref=f1e84]
+          - generic [ref=f1e85]:
+            - heading "Генеральная уборка" [level=3] [ref=f1e86]
+            - paragraph [ref=f1e87]: "Комплексная уборка всехпомещений: пыль, кухня, санузлыи труднодоступные места."
+            - link "Подробнее" [ref=f1e88] [cursor=pointer]:
+              - /url: generalnaya.html
+        - article [ref=f1e89]:
+          - img "Поддерживающая уборка" [ref=f1e90]
+          - generic [ref=f1e91]:
+            - heading "Поддерживающая уборка" [level=3] [ref=f1e92]
+            - paragraph [ref=f1e93]: "Регулярная уборка для чистоты иуюта: поверхности, полы, кухня исанузлы."
+            - link "Подробнее" [ref=f1e94] [cursor=pointer]:
+              - /url: podderzhivayushchaya.html
+        - article [ref=f1e95]:
+          - img "Уборка детской" [ref=f1e96]
+          - generic [ref=f1e97]:
+            - heading "Уборка детской" [level=3] [ref=f1e98]
+            - paragraph [ref=f1e99]: Бережная уборка с заботой оздоровье ребёнка и удобнымхранением игрушек.
+            - link "Подробнее" [ref=f1e100] [cursor=pointer]:
+              - /url: uborka-detskoy.html
+        - article [ref=f1e101]:
+          - img "Организация порядка" [ref=f1e102]
+          - generic [ref=f1e103]:
+            - heading "Организация порядка" [level=3] [ref=f1e104]
+            - paragraph [ref=f1e105]: Продумываем систему хранения:всё по категориям и своё местодля каждой вещи.
+            - link "Подробнее" [ref=f1e106] [cursor=pointer]:
+              - /url: organizaciya-hraneniya.html
+        - article [ref=f1e107]:
+          - img "Инклюзивная уборка" [ref=f1e108]
+          - generic [ref=f1e109]:
+            - heading "Инклюзивная уборка" [level=3] [ref=f1e110]
+            - paragraph [ref=f1e111]: "Уборка с учётом индивидуальныхпотребностей: дезинфекция имягкие средства."
+            - link "Подробнее" [ref=f1e112] [cursor=pointer]:
+              - /url: inklyuzivnaya.html
+        - article [ref=f1e113]:
+          - img "Зооклининг" [ref=f1e114]
+          - generic [ref=f1e115]:
+            - heading "Зооклининг" [level=3] [ref=f1e116]
+            - paragraph [ref=f1e117]: Убираем шерсть, запахи и зоныпитомцев — безопасно для кошеки собак.
+            - link "Подробнее" [ref=f1e118] [cursor=pointer]:
+              - /url: zooklining.html
+        - article [ref=f1e119]:
+          - img "После ремонта" [ref=f1e120]
+          - generic [ref=f1e121]:
+            - heading "После ремонта" [level=3] [ref=f1e122]
+            - paragraph [ref=f1e123]: Удаляем строительную пыль иследы материалов, возвращаемпомещению чистоту.
+            - link "Подробнее" [ref=f1e124] [cursor=pointer]:
+              - /url: posle-remonta.html
+        - article [ref=f1e125]:
+          - img "Хоумстейджинг" [ref=f1e126]
+          - generic [ref=f1e127]:
+            - heading "Хоумстейджинг" [level=3] [ref=f1e128]
+            - paragraph [ref=f1e129]: "Готовим квартиру к продаже илисдаче: порядок, уют ипривлекательный вид."
+            - link "Подробнее" [ref=f1e130] [cursor=pointer]:
+              - /url: homestaging.html
+      - generic [ref=f1e131]:
+        - article [ref=f1e132]:
+          - img "Клининг автодомов и яхт" [ref=f1e133]
+          - generic [ref=f1e134]:
+            - heading "Клининг автодомов и яхт" [level=3] [ref=f1e135]
+            - paragraph [ref=f1e136]: "Клининг кемперов, автодомов и маломерных судов: салон, камбуз, санузел и текстиль."
+            - link "Подробнее" [ref=f1e137] [cursor=pointer]:
+              - /url: avtodoma-i-yahty.html
+        - article [ref=f1e138]:
+          - img "Переезд под ключ" [ref=f1e139]
+          - generic [ref=f1e140]:
+            - generic [ref=f1e141]:
+              - heading "Переезд под ключ" [level=3] [ref=f1e142]
+              - paragraph [ref=f1e143]: Упаковка и сортировка вещей, организация хранения,бережная транспортировка и порядок в новом доме.
+              - generic [ref=f1e144]:
+                - generic [ref=f1e145]: ✓
+                - generic [ref=f1e146]: Индивидуальный подход к каждомуклиенту
+              - generic [ref=f1e147]:
+                - generic [ref=f1e148]: ✓
+                - generic [ref=f1e149]: Только проверенные и безопасныесредства
+              - generic [ref=f1e150]:
+                - generic [ref=f1e151]: ✓
+                - generic [ref=f1e152]: Гарантия качества на все виды уборки
+            - generic [ref=f1e153]:
+              - link "Подробнее" [ref=f1e154] [cursor=pointer]:
+                - /url: pereezd-pod-klyuch.html
+              - link "Рассчитать переезд →" [ref=f1e155] [cursor=pointer]:
+                - /url: pereezd-pod-klyuch.html#order
+    - generic [ref=f1e157]:
+      - generic [ref=f1e158]:
+        - generic [ref=f1e159]:
+          - heading "Референсы ✦" [level=2] [ref=f1e160]
+          - paragraph [ref=f1e161]: До и после нашей уборки
+        - generic [ref=f1e162]:
+          - button "←" [ref=f1e163] [cursor=pointer]
+          - button "→" [ref=f1e164] [cursor=pointer]
+      - generic [ref=f1e166]:
+        - article [ref=f1e167]:
+          - generic [ref=f1e168]:
+            - img "Кухня до" [ref=f1e169]
+            - img "Кухня после" [ref=f1e170]
+            - generic [ref=f1e171]: До
+            - generic [ref=f1e172]: После
+          - generic [ref=f1e173]: Кухня
+        - article [ref=f1e174]:
+          - generic [ref=f1e175]:
+            - img "Гостиная до" [ref=f1e176]
+            - img "Гостиная после" [ref=f1e177]
+            - generic [ref=f1e178]: До
+            - generic [ref=f1e179]: После
+          - generic [ref=f1e180]: Гостиная
+        - article [ref=f1e181]:
+          - generic [ref=f1e182]:
+            - img "Комната до" [ref=f1e183]
+            - img "Комната после" [ref=f1e184]
+            - generic [ref=f1e185]: До
+            - generic [ref=f1e186]: После
+          - generic [ref=f1e187]: Комната
+        - article [ref=f1e188]:
+          - generic [ref=f1e189]:
+            - img "Балкон до" [ref=f1e190]
+            - img "Балкон после" [ref=f1e191]
+            - generic [ref=f1e192]: До
+            - generic [ref=f1e193]: После
+          - generic [ref=f1e194]: Балкон
+        - article [ref=f1e195]:
+          - generic [ref=f1e196]:
+            - img "Окно до" [ref=f1e197]
+            - generic [ref=f1e198]: До
+          - generic [ref=f1e199]: Окно
+    - generic [ref=f1e207]:
+      - generic [ref=f1e208]:
+        - heading "Команда ✦" [level=2] [ref=f1e209]
+        - paragraph [ref=f1e210]: Профессионалы, которым можно доверять
+      - generic [ref=f1e211]:
+        - generic [ref=f1e212]:
+          - img "Екатерина" [ref=f1e213]
+          - heading "Екатерина" [level=3] [ref=f1e214]
+          - generic [ref=f1e215]: Автор проекта и руководитель
+          - generic [ref=f1e216]: 16 лет в клининге
+        - generic [ref=f1e217]:
+          - img "Юлия" [ref=f1e218]
+          - heading "Юлия" [level=3] [ref=f1e219]
+          - generic [ref=f1e220]: Руководитель клининг-бригады
+          - generic [ref=f1e221]: Контроль качества
+        - generic [ref=f1e222]:
+          - img "Руслан" [ref=f1e223]
+          - heading "Руслан" [level=3] [ref=f1e224]
+          - generic [ref=f1e225]: Руководитель выездных заказов
+          - generic [ref=f1e226]: Логистика и переезды
+        - generic [ref=f1e227]:
+          - img "Елизавета" [ref=f1e228]
+          - heading "Елизавета" [level=3] [ref=f1e229]
+          - generic [ref=f1e230]: Оператор чата, SMM-менеджер
+          - generic [ref=f1e231]: Ответ за 10 минут
+        - generic [ref=f1e232]:
+          - img "Анастасия" [ref=f1e233]
+          - heading "Анастасия" [level=3] [ref=f1e234]
+          - generic [ref=f1e235]: Бухгалтер
+          - generic [ref=f1e236]: Документы и оплата
+        - generic [ref=f1e237]:
+          - img "Христина" [ref=f1e238]
+          - heading "Христина" [level=3] [ref=f1e239]
+          - generic [ref=f1e240]: Копирайтер, редактор соц. сетей
+          - generic [ref=f1e241]: Контент и рассылки
+        - generic [ref=f1e242]:
+          - img "Мария" [ref=f1e243]
+          - heading "Мария" [level=3] [ref=f1e244]
+          - generic [ref=f1e245]: Дизайнер
+          - generic [ref=f1e246]: Интерьерные решения
+    - generic [ref=f1e248]:
+      - generic [ref=f1e249]:
+        - generic [ref=f1e250]:
+          - heading "Отзывы ✦" [level=2] [ref=f1e251]
+          - paragraph [ref=f1e252]: Ваше доверие — наша лучшая награда
+        - generic [ref=f1e253]:
+          - button "←" [ref=f1e254] [cursor=pointer]
+          - button "→" [ref=f1e255] [cursor=pointer]
+      - generic [ref=f1e257]:
+        - article [ref=f1e258]:
+          - generic [ref=f1e259]:
+            - generic [ref=f1e260]: С
+            - generic [ref=f1e261]:
+              - generic [ref=f1e262]: Светлана
+              - text: 1 июля · Клиент
+            - generic [ref=f1e263]: ★★★★★
+          - generic [ref=f1e264]: Генеральная уборка
+          - paragraph [ref=f1e265]: "Вызывала клинера на генеральную уборку кухни. Перед заказом всё обсудили: что убираем, какими средствами будем пользоваться. Всё очень понравилось — я находилась дома и видела, как быстро и качественно производится уборка. Все договорённости были соблюдены, девушка приехала без опозданий. В общем, я в восторге! Рекомендую!"
+        - article [ref=f1e266]:
+          - generic [ref=f1e267]:
+            - generic [ref=f1e268]: О
+            - generic [ref=f1e269]:
+              - generic [ref=f1e270]: Ольга К.
+              - text: 3 июля · Клиент
+            - generic [ref=f1e271]: ★★★★★
+          - generic [ref=f1e272]: Генеральная уборка
+          - paragraph [ref=f1e273]: Спасибо большое за генеральную уборку в ванной комнате для моих родителей! Всё чисто, всё блестит! С менеджером договорились по телефону, клинер приехала без опозданий, день в день — клининг нужен был срочно. Я попросила использовать только эко- средства, привезли с собой. Всю новую ветошь при мне вскрывали — это очень впечатляет. Обязательно пригласим следующий раз!
+        - article [ref=f1e274]:
+          - generic [ref=f1e275]:
+            - generic [ref=f1e276]: Д
+            - generic [ref=f1e277]:
+              - generic [ref=f1e278]: Дарья
+              - text: 5 июля · Клиент
+            - generic [ref=f1e279]: ★★★★★
+          - generic [ref=f1e280]: Генеральная уборка
+          - paragraph [ref=f1e281]: "Заказывала уборку квартиры, клинер приехала вовремя, сразу нашли общий язык. Все средства были привезены клинером: новые губки и тряпки, хорошие моющие средства. Результат превзошёл ожидания, воздух в квартире сразу стал чище. Я так идеально не уберусь! Буду постоянным клиентом."
+        - article [ref=f1e282]:
+          - generic [ref=f1e283]:
+            - generic [ref=f1e284]: Л
+            - generic [ref=f1e285]:
+              - generic [ref=f1e286]: Лариса Зорина
+              - text: 7 июля · Клиент
+            - generic [ref=f1e287]: ★★★★★
+          - generic [ref=f1e288]: Генеральная уборка
+          - paragraph [ref=f1e289]: Всё прошло замечательно, девушку приглашаю не первый раз! Быстро, аккуратно, конструктивно. Спасибо!
+        - article [ref=f1e290]: ⭐Оставить отзыв
+      - link "♡ Оставить отзыв" [ref=f1e298] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f1e301]:
+      - generic [ref=f1e302]:
+        - heading "Оформить заказ" [level=2] [ref=f1e303]
+        - paragraph [ref=f1e304]: Заполните форму — ответим в течение 10 минут и рассчитаем стоимость
+      - generic [ref=f1e305]:
+        - generic [ref=f1e306]:
+          - generic [ref=f1e307]:
+            - generic [ref=f1e308]: Тип услуги
+            - generic [ref=f1e309] [cursor=pointer]: Генеральная уборка
+          - generic [ref=f1e313]:
+            - generic [ref=f1e314]:
+              - generic [ref=f1e315]: Площадь помещения
+              - generic [ref=f1e316]: 65 м²
+            - slider [ref=f1e318]: "65"
+            - generic [ref=f1e319]:
+              - generic [ref=f1e320]: 20 м²
+              - generic [ref=f1e321]: 300 м²
+          - generic [ref=f1e322]:
+            - generic [ref=f1e323]:
+              - text: Фотографии
+              - emphasis [ref=f1e324]: — необязательно
+            - generic [ref=f1e325]:
+              - button "+" [ref=f1e326] [cursor=pointer]
+              - generic [ref=f1e327]: Прикрепите фото помещения —так расчёт будет точнее
+          - generic [ref=f1e328]:
+            - generic [ref=f1e329]:
+              - paragraph [ref=f1e330]: Предварительная оценка
+              - generic [ref=f1e331]: Генеральная уборка, 65 м²
+            - generic [ref=f1e332]: от 7 500 ₽
+        - generic [ref=f1e333]:
+          - generic [ref=f1e334]:
+            - generic [ref=f1e335]: Комментарий к заказу
+            - 'textbox "Расскажите о пожеланиях: питомцы, аллергия, особые зоны…" [ref=f1e336]'
+          - generic [ref=f1e337]:
+            - textbox "Имя" [ref=f1e338]
+            - textbox "Телефон или почта" [ref=f1e339]
+          - button "Отправить заявку" [ref=f1e340] [cursor=pointer]
+          - paragraph [ref=f1e341]:
+            - text: Отправляя форму, вы даёте
+            - link "согласие на обработку персональных данных" [ref=f1e342] [cursor=pointer]:
+              - /url: soglasie.html
+            - text: и соглашаетесь с
+            - link "Политикой обработки персональных данных" [ref=f1e343] [cursor=pointer]:
+              - /url: politika.html
+            - text: .
+    - generic [ref=f1e346]:
+      - generic [ref=f1e347]:
+        - heading "Ответы на вопросы" [level=2] [ref=f1e348]
+        - paragraph [ref=f1e349]: Если не нашли свой — напишите нам, ответим лично
+      - generic [ref=f1e350]:
+        - generic [ref=f1e351] [cursor=pointer]:
+          - generic [ref=f1e352]:
+            - heading "Какую уборку выбрать для моего дома?" [level=3] [ref=f1e353]
+            - generic [ref=f1e354]: −
+          - generic [ref=f1e355]: Если уборки давно не было или вы заезжаете в новую квартиру — берите генеральную. Для поддержания результата подойдёт регулярная поддерживающая уборка раз в 1–2 недели.
+        - generic [ref=f1e357] [cursor=pointer]:
+          - heading "Чем поддерживающая уборка отличается от генеральной?" [level=3] [ref=f1e358]
+          - generic [ref=f1e359]: +
+        - generic [ref=f1e361] [cursor=pointer]:
+          - heading "Работаете ли вы с аллергией и питомцами?" [level=3] [ref=f1e362]
+          - generic [ref=f1e363]: +
+        - generic [ref=f1e365] [cursor=pointer]:
+          - heading "Как заказать комплексную услугу по индивидуальному запросу?" [level=3] [ref=f1e366]
+          - generic [ref=f1e367]: +
+  - contentinfo [ref=f1e368]:
+    - generic [ref=f1e369]:
+      - generic [ref=f1e370]:
+        - generic [ref=f1e371]:
+          - img "Чистота в деталях" [ref=f1e373]
+          - paragraph [ref=f1e374]: Уборка квартир, домов и помещений в Москве и Московской области
+          - generic [ref=f1e375]:
+            - link "WhatsApp" [ref=f1e376] [cursor=pointer]:
+              - /url: https://wa.me/79099035586
+            - link "Telegram" [ref=f1e377] [cursor=pointer]:
+              - /url: https://t.me/chistota_v_detalyah
+            - link "MAX" [ref=f1e378] [cursor=pointer]:
+              - /url: https://max.ru/
+            - link "VK" [ref=f1e379] [cursor=pointer]:
+              - /url: https://vk.com/
+            - link "Avito" [ref=f1e380] [cursor=pointer]:
+              - /url: https://www.avito.ru/
+        - generic [ref=f1e381]:
+          - heading "Компания" [level=4] [ref=f1e382]
+          - generic [ref=f1e383]:
+            - link "О нас" [ref=f1e384] [cursor=pointer]:
+              - /url: "#about"
+            - link "Услуги" [ref=f1e385] [cursor=pointer]:
+              - /url: "#services"
+            - link "Референсы" [ref=f1e386] [cursor=pointer]:
+              - /url: "#refs"
+            - link "Команда" [ref=f1e387] [cursor=pointer]:
+              - /url: "#team"
+            - link "Отзывы" [ref=f1e388] [cursor=pointer]:
+              - /url: "#reviews"
+        - generic [ref=f1e389]:
+          - heading "Контакты" [level=4] [ref=f1e390]
+          - generic [ref=f1e391]:
+            - generic [ref=f1e392]: ТЕЛЕФОН
+            - generic [ref=f1e393]: +7 909 903 55 86
+          - generic [ref=f1e394]:
+            - generic [ref=f1e395]: EMAIL
+            - generic [ref=f1e396]: chistotavd@bk.ru
+          - generic [ref=f1e397]:
+            - generic [ref=f1e398]: TELEGRAM
+            - generic [ref=f1e399]: "@chistota_v_detalyah"
+        - generic [ref=f1e400]:
+          - heading "Время работы" [level=4] [ref=f1e401]
+          - generic [ref=f1e402]:
+            - generic [ref=f1e403]:
+              - generic [ref=f1e404]: ПН — ПТ
+              - generic [ref=f1e405]: 08:00 — 20:00
+            - generic [ref=f1e406]:
+              - generic [ref=f1e407]: СБ
+              - generic [ref=f1e408]: 10:00 — 18:00
+            - generic [ref=f1e409]:
+              - generic [ref=f1e410]: ВС
+              - generic [ref=f1e411]: выходной
+          - link "Консультации →" [ref=f1e412] [cursor=pointer]:
+            - /url: https://wa.me/79099035586
+      - generic [ref=f1e413]:
+        - generic [ref=f1e414]: © 2026 Чистота в деталях. Москва и МО
+        - generic [ref=f1e415]:
+          - link "Политика обработки персональных данных" [ref=f1e416] [cursor=pointer]:
+            - /url: politika.html
+          - text: ·
+          - link "Согласие на обработку ПД" [ref=f1e417] [cursor=pointer]:
+            - /url: soglasie.html
+      - generic [ref=f1e418]: "Рекизиты: ИП ______________ (ФИО) · ИНН ______________ · ОГРНИП ______________ · р/с ______________ · Банк ______________ · Адрес: ______________ · E-mail: chistotavd@bk.ru"

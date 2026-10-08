@@ -1,0 +1,479 @@
+.p-in{padding:0}
+.sec-head{gap:0}
+.sec-head .kicker{margin-bottom:20px}
+.sec-sub{margin-top:9px}
+
+.crumbs{padding-top:88px}
+.crumbs-in{padding:0;display:flex;align-items:center;gap:10px;font-size:14px;color:var(--body)}
+.crumbs-in a{transition:.2s}
+.crumbs-in a:hover{color:var(--pink3)}
+.crumbs-in span{color:var(--muted)}
+.crumbs-in b{color:var(--ink);font-weight:600}
+
+.ck2-list{list-style:none}
+.ck2-list li{display:flex;align-items:flex-start;gap:12px;font-size:14.5px;line-height:20px;color:var(--body2)}
+.ck2-list li+li{margin-top:15px}
+.ck2-list i{width:24px;min-width:24px;height:24px;border-radius:50%;background:var(--pinkbg3);color:var(--pink2);font-size:11px;font-weight:700;font-style:normal;display:flex;align-items:center;justify-content:center;flex:none;margin-top:-2px}
+
+.z10-hero{padding:26px 0 24px}
+.z10-hero-in{display:flex;justify-content:space-between;align-items:flex-start;padding:0}
+.z10-hero-left{width:548px;flex:none;display:flex;flex-direction:column}
+.z10-badge{display:inline-flex;align-self:flex-start;background:var(--pinkbg3);border-radius:99px;padding:8px 16px;font-size:12.5px;font-weight:600;letter-spacing:.09em;color:var(--pink2)}
+.z10-hero h1{font-family:var(--serif);font-weight:600;font-size:56px;line-height:64px;letter-spacing:-.01em;color:var(--ink);margin-top:16px}
+.z10-lead{width:520px;max-width:100%;font-size:17px;line-height:29px;color:#6B5B62;margin-top:14px}
+.z10-lead+.z10-lead{margin-top:14px}
+  .z10-stats{display:flex;gap:58px;margin-top:43px}
+.z10-stat span{display:block;font-size:12px;font-weight:600;letter-spacing:0;text-transform:uppercase;color:var(--muted)}
+.z10-stat b{display:block;font-size:22px;font-weight:700;color:var(--ink);margin-top:6px}
+.z10-cta{display:flex;align-items:center;gap:24px;margin-top:54px}
+.z10-cta .btn-pink{padding:17px 33px;font-size:15.5px}
+.z10-link{display:inline-flex;align-items:center;gap:14px;font-size:15px;font-weight:600;color:var(--body2);transition:.2s}
+.z10-link i{width:40px;height:40px;border-radius:50%;background:#fff;box-shadow:0 8px 20px rgba(160,90,115,.16);display:flex;align-items:center;justify-content:center;color:var(--pink2);font-style:normal;font-size:16px;flex:none;transition:.2s}
+.z10-link:hover{color:var(--pink3)}
+.z10-link:hover i{background:var(--pinkbg3)}
+.z10-hero-right{width:563px;flex:none;position:relative;margin-right:-25px;margin-top:26px}
+.z10-hero-deco{position:absolute;left:-22px;top:-26px;width:612px;height:532px;background:linear-gradient(149deg,#FCE3ED 0%,#FDF2F6 100%);border-radius:40px}
+.z10-hero-photo{position:relative;height:480px;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-lg)}
+.z10-hero-photo img{width:100%;height:100%;object-fit:cover}
+
+.z10-pack{margin-top:0}
+.pk-card{background:#fff;border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow-md);padding:52px 34px 40px;display:grid;grid-template-columns:250px 1fr 1fr;gap:26px 40px}
+.pk-info h3{font-size:17.5px;font-weight:700;color:var(--ink)}
+.pk-info p{font-size:14px;line-height:25px;color:var(--body);margin-top:16px}
+.pk-list li{font-size:14.5px;line-height:23px;padding:6px 0}
+.pk-list li+li{margin-top:4px}
+.pk-note{grid-column:1/-1;display:flex;align-items:center;gap:20px;margin-top:14px;font-size:14px;line-height:21px;color:var(--muted)}
+.pk-note i{width:40px;min-width:40px;height:40px;border-radius:50%;background:var(--pinkbg3);color:var(--pink2);display:flex;align-items:center;justify-content:center;font-style:normal;flex:none}
+
+.z10-band{background:linear-gradient(180deg,rgba(253,240,245,0) 0%,#FDF0F5 24px,#FDF0F5 calc(100% - 24px),rgba(253,240,245,0) 100%)}
+.z10-method{margin-top:124px;padding:44px 0 36px}
+.tz-grid{margin-top:20px;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.tz-card{background:#fff;border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow-md);padding:40px 32px 25px;display:flex;flex-direction:column;align-items:flex-start;min-height:668px}
+.tz-card h3{font-size:22px;font-weight:700;color:var(--ink)}
+.tz-card>p{font-size:15px;line-height:25px;color:var(--body);margin-top:14px}
+.tz-card .ck2-list{margin-top:24px}
+.tz-card .ck2-list li+li{margin-top:15px}
+.tz-box{margin-top:auto;padding-top:24px}
+.tz-box-in{background:var(--pinkbg);border-radius:16px;padding:24px 26px}
+.tz-box h4{font-size:15px;font-weight:700;color:var(--ink)}
+.tz-box p{font-size:14px;line-height:23px;color:var(--body);margin-top:8px}
+
+.z10-zones{padding:160px 0 117px}
+.zn-grid{margin-top:35px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px}
+.zn-card{background:#fff;border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow-md);padding:40px 30px 26px;display:flex;flex-direction:column}
+.zn-card.wide{grid-column:1/-1}
+.zn-head{display:flex;align-items:center;gap:16px;padding-left:22px}
+.zn-ic{width:30px;min-width:30px;height:30px;border-radius:50%;background:var(--pinkbg3);color:var(--pink2);display:flex;align-items:center;justify-content:center;flex:none}
+.zn-head h3{font-size:20px;line-height:28px;font-weight:700;color:var(--ink);max-width:420px}
+.zn-cols{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:0 30px;padding-left:22px}
+.zn-cols .ck2-list li+li{margin-top:15px}
+.zn-note{margin-top:auto;padding-left:22px;font-size:13.5px;line-height:20px;color:var(--muted)}
+.zn-card:nth-child(-n+2){min-height:391px}
+.zn-card:nth-child(n+3):nth-child(-n+4){min-height:356px}
+.zn-sub3{margin-top:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:40px;padding-left:22px}
+.zn-label{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pink3)}
+.zn-sub3 .ck2-list{margin-top:14px}
+.zn-sub3 .ck2-list li{font-size:14px;line-height:19px}
+.zn-sub3 .ck2-list li+li{margin-top:15px}
+.zn-dop{display:grid;grid-template-columns:300px 1fr 1fr;gap:26px 40px;align-items:start;padding-top:26px;padding-bottom:20px}
+.zn-dop-left{padding-top:8px}
+.zn-dop-left p{font-size:14px;line-height:21px;color:var(--body);margin-top:14px}
+.zn-dop .ck2-list li{font-size:14px;line-height:19px}
+.zn-dop .ck2-list li+li{margin-top:15px}
+
+.z10-osob{padding:60px 0 36px}
+.os-grid{margin-top:42px;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.os-card{background:#fff;border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow-md);padding:40px 32px 36px}
+.os-card h3{font-size:19px;line-height:26px;font-weight:700;color:var(--ink)}
+.os-card>p{font-size:14.5px;line-height:25px;color:var(--body);margin-top:12px}
+.os-list{list-style:none;margin-top:24px;padding-left:14px}
+.os-list li{font-size:14.5px;line-height:20px;color:var(--body2)}
+.os-list li+li{margin-top:14px}
+
+.z10-safety{margin-top:124px}
+.sf-card{background:#fff;border:1px solid var(--border);border-radius:32px;box-shadow:var(--shadow-md);padding:44px 44px 44px}
+.sf-top{display:grid;grid-template-columns:324px 1fr;gap:12px}
+.sf-kicker{text-align:left;display:block}
+.sf-left h2{font-family:var(--serif);font-weight:600;font-size:40px;line-height:48px;color:var(--ink);margin-top:16px}
+.sf-lead{font-size:15px;line-height:26px;color:var(--body);margin-top:24px}
+.sf-rows{padding-top:3px;padding-left:57px}
+.sf-row{display:flex;align-items:flex-start;gap:14px}
+.sf-row+.sf-row{margin-top:42px}
+.sf-row i{width:34px;min-width:34px;height:34px;border-radius:50%;background:var(--pinkbg3);color:var(--pink2);font-size:14px;font-style:normal;display:flex;align-items:center;justify-content:center;flex:none}
+.sf-row b{width:160px;flex:none;font-size:18px;line-height:26px;font-weight:700;color:var(--ink)}
+.sf-row p{font-size:15px;line-height:26px;color:var(--body)}
+.sf-bottom{display:grid;grid-template-columns:324px 1fr;gap:12px;margin-top:75px}
+.sf-al h4{font-size:20px;font-weight:700;color:var(--ink);margin-top:20px}
+.sf-al p{font-size:14.5px;line-height:25px;color:var(--body);margin-top:12px}
+.sf-pills{display:flex;flex-wrap:wrap;gap:12px 17px;padding-left:20px}
+.sf-pills span{background:var(--pinkbg);border-radius:99px;padding:8px 16px;font-size:13px;font-weight:600;color:#8A757E;white-space:normal;overflow-wrap:anywhere}
+.sf-disclaimer{margin-top:19px;font-size:13.5px;line-height:20px;color:var(--muted)}
+
+.z10-vazhno{margin-top:102px}
+.vz-card{background:var(--pinkbg);border-radius:32px;padding:48px 44px 42px;display:grid;grid-template-columns:340px 1fr 1fr;gap:26px 88px}
+.vz-left .kicker{display:block;text-align:left;margin-bottom:0}
+.vz-left h2{font-family:var(--serif);font-weight:600;font-size:40px;line-height:46px;color:var(--ink);margin-top:16px;white-space:pre-line}
+.vz-left>p{font-size:15px;line-height:26px;color:var(--body);margin-top:0}
+.vz-btn{display:inline-flex;align-items:center;gap:10px;margin-top:20px;background:var(--pink3);color:#fff;border-radius:99px;padding:13px 26px;font-size:14px;font-weight:700;transition:.2s}
+.vz-btn:hover{background:var(--pink2)}
+.vz-btn em,.km-btn em{font-style:normal}
+.vz-list{list-style:none;padding-top:3px}
+.vz-list li{font-size:14.5px;line-height:26px;color:var(--body2)}
+.vz-list li+li{margin-top:8px}
+
+.z10-prep{margin-top:105px;padding:56px 0 46px}
+.pp-grid{margin-top:65px;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.pp-card{background:#fff;border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow-md);padding:24px 28px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+.pp-item{display:flex;align-items:flex-start;gap:24px}
+.pp-num{font-family:var(--serif);font-weight:600;font-size:20px;line-height:22px;color:var(--pink-soft);flex:none}
+.pp-item p{font-size:14.5px;line-height:22px;color:var(--body2)}
+
+.z10-komu{padding:144px 0 140px}
+.km-grid{margin-top:41px;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.km-card{background:#fff;border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow-md);padding:44px 44px 44px}
+.km-card.km-pink{background:#FBE4EC;border-color:var(--border2)}
+.km-head{display:flex;align-items:center;gap:16px}
+.km-ic{width:42px;min-width:42px;height:42px;border-radius:50%;background:var(--pinkbg3);color:var(--pink2);display:flex;align-items:center;justify-content:center;flex:none}
+.km-pink .km-ic{background:#fff}
+.km-head h3{font-size:20px;line-height:27px;font-weight:700;color:var(--ink)}
+.km-card .ck2-list{margin-top:26px}
+.km-card .ck2-list li{font-size:15px;line-height:21px}
+.km-card .ck2-list li+li{margin-top:18px}
+.km-list{list-style:none;margin-top:24px}
+.km-list li{font-size:14.5px;line-height:22px;color:var(--body2)}
+.km-list li+li{margin-top:14px}
+.km-note{font-size:14.5px;line-height:27px;color:var(--body2);margin-top:40px}
+.km-btn{display:inline-flex;align-items:center;gap:10px;margin-top:26px;background:#fff;border-radius:99px;padding:15px 26px;font-size:14px;font-weight:700;color:var(--pink3);box-shadow:var(--shadow-sm);transition:.2s}
+.km-btn:hover{background:var(--pinkbg3)}
+
+.z10-steps{padding:44px 0 26px}
+.st-grid{margin-top:36px;display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.st-card{background:#fff;border-radius:24px;padding:38px 28px 50px;box-shadow:0 10px 26px rgba(198,130,155,.08)}
+.st-num{display:block;font-family:var(--serif);font-weight:600;font-size:30px;line-height:34px;color:var(--pink2)}
+.st-card h3{font-size:16px;font-weight:700;color:var(--ink);margin-top:12px}
+.st-card p{font-size:13.5px;line-height:23px;color:var(--body);margin-top:10px}
+
+.z10-doposle{padding:137px 0 0}
+.dp-track{margin-top:40px;display:flex;justify-content:center;gap:25px}
+.dp-card{width:375px}
+.dp-pics{height:276px}
+.dp-pics img{height:276px}
+.dp-card .ref-cap{padding:13px 14px 16px;font-size:15px}
+
+.z10-equip{padding:144px 0 89px}
+.eq-grid{margin-top:41px;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.eq-card{background:#fff;border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow-md);padding:38px 34px 40px}
+.eq-card h3{font-size:20px;font-weight:700;color:var(--ink)}
+.eq-card .ck2-list{margin-top:24px}
+.eq-card .ck2-list li{font-size:15px;line-height:21px}
+.eq-card .ck2-list li+li{margin-top:17px}
+.eq-pink{background:var(--pinkbg);border-color:var(--border2)}
+.eq-pink .ck2-list li+li{margin-top:13px}
+.eq-pink .ck2-list i{background:#fff}
+.eq-intro{margin-top:16px;font-size:15px;line-height:26px;color:var(--body2)}
+.eq-pink .ck2-list{margin-top:14px}
+
+.z10-reviews{margin-top:0;padding:78px 0 44px;background:linear-gradient(180deg,rgba(253,240,245,0) 0%,#FDF0F5 24px,#FDF0F5 calc(100% - 24px),rgba(253,240,245,0) 100%)}
+.z10-reviews .reviews-in{padding:0}
+.z10-reviews .rev-track-wrap{overflow:hidden;padding:4px 0 8px;margin-top:67px;margin-right:calc(642px - 50vw)}
+.z10-reviews .rev-track{display:flex;gap:28px}
+.z10-reviews .rev-card{width:352px;padding:30px 28px 24px}
+.z10-reviews .revs-bottom{margin-top:30px}
+.z10-reviews .revs-bottom .btn-pink{padding:16px 30px;font-size:15.5px}
+
+.z10-order{padding-top:84px}
+.z10-order .order-card{margin:0 auto;padding:56px 52px 60px;gap:0}
+.ord-grid{display:grid;grid-template-columns:470px 560px;justify-content:space-between;gap:40px}
+.ord-info{padding-top:44px}
+.ord-info h2{font-family:var(--serif);font-weight:600;font-size:36px;line-height:46px;color:var(--ink)}
+.ord-lead{font-size:15.5px;line-height:27px;color:var(--body);margin-top:22px}
+.ord-list{margin-top:28px;display:flex;flex-direction:column;gap:20px;list-style:none}
+.ord-list li{position:relative;padding-left:26px;font-size:15px;line-height:22px;color:var(--ink)}
+.ord-list li::before{content:"✓";position:absolute;left:0;top:3px;font-size:12px;font-weight:700;color:var(--pink2)}
+.ord-phone{margin-top:29px;display:flex;align-items:center;gap:14px}
+.ord-phone i{width:44px;height:44px;border-radius:50%;background:var(--pinkbg3);color:#fff;font-size:18px;font-style:normal;display:flex;align-items:center;justify-content:center;flex:none}
+.ord-phone b{font-size:18px;font-weight:700;color:var(--ink)}
+.ord-form{display:flex;flex-direction:column;gap:10px;padding-top:4px}
+.ord-form .inputs-row{gap:16px}
+.ord-form .inp{padding:19px 18px}
+.ord-form .select{flex:1}
+.ord-form .photo-row{margin-top:4px}
+.ord-form .photo-add{width:76px;height:76px}
+.ord-form .textarea{min-height:83px;margin-top:2px}
+.ord-form .order-send{margin-top:8px;padding:21px}
+.ord-form .order-note{margin-top:8px}
+
+.z10-faq{padding-top:89px}
+.z10-faq .faq-list{margin-top:40px;gap:17px;margin-left:auto;margin-right:auto}
+.z10-faq .faq-item{padding:21px 26px;border-radius:20px}
+.z10-faq .faq-a{padding-top:14px;width:690px}
+
+.z10-strip{padding:102px 0 141px;position:relative;z-index:1}
+.z10-strip-head{display:flex;justify-content:space-between;align-items:center}
+.z10-strip-head h2{font-family:var(--serif);font-weight:600;font-size:32px;line-height:1.2;color:var(--ink)}
+.z10-all-link{font-size:15px;font-weight:600;color:var(--pink2);transition:.2s}
+.z10-all-link:hover{color:var(--pink3)}
+.strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:21px;margin-top:24px}
+.strip-item{display:block}
+.strip-item img{width:100%;border-radius:20px;display:block}
+.strip-item span{display:block;text-align:center;margin-top:18px;font-size:15px;font-weight:600;color:var(--ink);transition:.2s}
+.strip-item:hover span{color:var(--pink3)}
+
+.z10-faq .faq-item{cursor:pointer}
+
+@media (max-width:1330px){
+  .z10-hero-in{gap:40px}
+  .z10-hero-right{width:480px;margin-right:0}
+  .z10-hero-photo{height:440px}
+  .z10-hero-deco{width:524px;height:490px}
+  .z10-reviews .rev-track-wrap{margin-right:0}
+  .ord-grid{grid-template-columns:1fr 1fr;gap:36px}
+}
+@media (max-width:1180px){
+  .crumbs{padding-top:48px}
+  .z10-hero-in{flex-direction:column;align-items:flex-start}
+  .z10-hero-right{margin:32px auto 0;width:min(563px,100%)}
+  .z10-hero-left{width:100%}
+  .pk-card{grid-template-columns:1fr 1fr}
+  .pk-info{grid-column:1/-1}
+  .tz-grid,.os-grid,.pp-grid,.st-grid{grid-template-columns:1fr 1fr}
+  .zn-grid{grid-template-columns:1fr}
+  .zn-dop{grid-template-columns:1fr;gap:24px}
+  .sf-top,.sf-bottom{grid-template-columns:1fr;gap:40px}
+  .vz-card{grid-template-columns:1fr;gap:32px}
+  .km-grid,.eq-grid{grid-template-columns:1fr}
+  .dp-track{flex-wrap:wrap}
+  .strip-grid{grid-template-columns:1fr 1fr;gap:24px}
+  .z10-method,.z10-osob{margin-top:80px;padding-top:80px}
+  .z10-zones{padding:100px 0 80px}
+  .z10-komu{padding:100px 0 90px}
+  .z10-doposle{padding-top:110px}
+  .z10-equip{padding:100px 0 80px}
+  .z10-safety{margin-top:100px}
+  .z10-strip{padding:100px 0 90px}
+  .z10-reviews .rev-track-wrap{margin-top:50px}
+}
+@media (max-width:760px){
+  .tz-grid,.os-grid,.pp-grid,.st-grid,.pk-card{grid-template-columns:1fr}
+  .zn-cols,.zn-sub3{grid-template-columns:1fr;gap:24px}
+  .z10-hero h1{font-size:40px;line-height:50px}
+  .sec-title{font-size:30px}
+  .z10-stats{flex-wrap:wrap;gap:28px}
+  .z10-cta{flex-wrap:wrap}
+  .z10-lead{width:100%}
+  .z10-hero-deco{display:none}
+  .z10-hero-right{margin-right:0}
+  .ord-grid{grid-template-columns:1fr}
+  .ord-info{padding-top:0}
+  .inputs-row{flex-direction:column}
+  .strip-grid{grid-template-columns:1fr}
+  .dp-track{flex-direction:column;align-items:center}
+  .z10-hero-photo{height:min(480px,72vw)}
+  .sf-row{flex-wrap:wrap}
+  .vz-card,.sf-card{padding:28px 24px}
+}
+
+/* AUTO-MOBILE-PATCH */
+@media (max-width: 860px){
+.z10-hero-left{width:auto;min-width:0;max-width:100%}
+.z10-lead{width:auto;min-width:0;max-width:100%}
+.z10-hero-right{width:auto;min-width:0;max-width:100%}
+.z10-hero-deco{width:100%;left:0;right:0;max-width:100%}
+.dp-card{width:auto;min-width:0;max-width:100%}
+.z10-reviews .rev-card{width:auto;min-width:0;max-width:100%}
+.z10-faq .faq-a{width:auto;min-width:0;max-width:100%}
+}
+
+/* ===== P10 MOBILE 390 — подгонка под _figma/ref2/p10_mobile ===== */
+@media (max-width:860px){
+
+  /* ---- hero: порядок как в макете (бейдж, h1, лид, фото, статы, CTA) ---- */
+  .z10-hero{padding:20px 0 6px}
+  .z10-hero-in{flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0}
+  .z10-hero-left{display:contents}
+  .z10-badge{order:1;align-self:flex-start}
+  .z10-hero h1{order:2;margin-top:12px;font-size:36px;line-height:44px}
+  .z10-lead{order:3;width:100%;margin-top:12px;font-size:15px;line-height:24px}
+  .z10-hero-right{order:4;width:100%;min-width:0;margin:16px 0 0}
+  .z10-hero-photo{height:260px;border-radius:20px}
+  .z10-stats{order:5;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+  .z10-stat{flex:1 1 0;min-width:0;background:#fff;border:1px solid var(--border);border-radius:14px;padding:9px 6px;text-align:center}
+  .z10-stat span{font-size:10px;letter-spacing:.06em;white-space:normal;min-width:0}
+  .z10-stat b{margin-top:4px;font-size:14.5px;line-height:1.25}
+  .z10-cta{order:6;flex-direction:column;align-items:center;gap:12px;margin-top:16px}
+  .z10-cta .btn-pink{width:100%;padding:15px 18px;font-size:15px}
+  .z10-link{font-size:14px}
+  .z10-link i{width:34px;height:34px;font-size:14px}
+
+  /* ---- общие чек-листы ---- */
+  .ck2-list li{gap:9px;font-size:13.5px;line-height:19px}
+  .ck2-list li+li{margin-top:9px}
+  .ck2-list i{width:20px;min-width:20px;height:20px;font-size:10px;margin-top:-1px}
+
+  /* ---- «В комплекс входит» ---- */
+  .z10-pack{padding-top:4px}
+  .pk-card{padding:26px 18px 22px;border-radius:22px;gap:18px}
+  .pk-info h3{font-size:18px}
+  .pk-info p{margin-top:10px;font-size:13.5px;line-height:21px}
+  .pk-list li{padding:2px 0;font-size:13.5px;line-height:19px}
+  .pk-list li+li{margin-top:8px}
+  .pk-note{margin-top:14px;align-items:flex-start;gap:12px;font-size:12.5px;line-height:18px}
+  .pk-note i{width:32px;min-width:32px;height:32px}
+
+  /* ---- зоны: одна колонка, компактные карточки (как в макете) ---- */
+  .z10-zones{padding:56px 0 44px}
+  main .zn-grid{grid-template-columns:1fr !important;gap:14px;margin-top:24px}
+  .zn-grid .zn-card{min-height:0;padding:22px 18px 18px;border-radius:20px}
+  .zn-head{padding-left:0;gap:10px}
+  .zn-ic{width:26px;min-width:26px;height:26px}
+  .zn-head h3{font-size:17px;line-height:23px;max-width:none}
+  .zn-cols{grid-template-columns:1fr;gap:10px;padding-left:0;margin-top:14px}
+  .zn-cols .ck2-list li+li{margin-top:9px}
+  .zn-note{padding-left:0;margin-top:14px;font-size:12.5px;line-height:17px}
+  .zn-sub3{grid-template-columns:1fr;gap:14px;padding-left:0;margin-top:16px}
+  .zn-sub3 .ck2-list li{font-size:13.5px;line-height:19px}
+  .zn-sub3 .ck2-list li+li{margin-top:8px}
+  .zn-label{font-size:10.5px}
+  .zn-dop{grid-template-columns:1fr;gap:14px;padding:18px 18px 16px}
+  .zn-dop-left p{margin-top:8px;font-size:13px;line-height:19px}
+  .zn-dop .ck2-list li{font-size:13.5px;line-height:19px}
+  .zn-dop .ck2-list li+li{margin-top:8px}
+
+  /* ---- важно знать ---- */
+  .z10-vazhno{margin-top:72px}
+  .vz-card{padding:26px 20px 24px;gap:22px;border-radius:24px}
+  .vz-left h2{margin-top:12px;font-size:30px;line-height:36px}
+  .vz-left>p{font-size:14px;line-height:22px}
+  .vz-btn{margin-top:16px;padding:11px 20px;font-size:13.5px}
+  .vz-list li{font-size:13.5px;line-height:21px}
+  .vz-list li+li{margin-top:6px}
+
+  /* ---- полоса «Подготовка» ---- */
+  .z10-prep{margin-top:72px;padding:40px 0 36px}
+  .pp-grid{margin-top:26px;gap:12px}
+  .pp-card{min-height:0;padding:16px;border-radius:18px;gap:14px}
+  .pp-item{gap:12px}
+  .pp-num{font-size:17px;line-height:20px}
+  .pp-item p{font-size:13.5px;line-height:19px}
+
+  /* ---- кому подходит ---- */
+  .z10-komu{padding:64px 0 56px}
+  .km-grid{margin-top:26px;gap:14px}
+  .km-card{padding:26px 20px;border-radius:22px}
+  .km-ic{width:34px;min-width:34px;height:34px}
+  .km-ic svg{width:15px;height:15px}
+  .km-head{gap:12px}
+  .km-head h3{font-size:17px;line-height:23px}
+  .km-card .ck2-list{margin-top:16px}
+  .km-card .ck2-list li{font-size:13.5px;line-height:19px}
+  .km-card .ck2-list li+li{margin-top:10px}
+  .km-list{margin-top:16px}
+  .km-list li{font-size:13.5px;line-height:20px}
+  .km-list li+li{margin-top:9px}
+  .km-note{margin-top:22px;font-size:13.5px;line-height:21px}
+  .km-btn{margin-top:18px;padding:13px 22px;font-size:13.5px}
+
+  /* ---- полоса «Как проходит заказ»: сетка 2 колонки как в макете ---- */
+  .z10-steps{padding:40px 0 32px}
+  .st-grid{margin-top:24px;grid-template-columns:1fr 1fr;gap:12px}
+  .st-card{padding:16px 14px 18px;border-radius:16px}
+  .st-num{font-size:24px;line-height:26px}
+  .st-card h3{margin-top:8px;font-size:15px}
+  .st-card p{margin-top:6px;font-size:12.5px;line-height:17px}
+
+  /* ---- до и после: сетка 2 колонки ---- */
+  .z10-doposle{padding:52px 0 0}
+  .dp-track{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;justify-content:stretch;gap:12px;margin-top:24px}
+  .dp-card{width:auto;min-width:0;max-width:100%;overflow:hidden}
+  .dp-pics{height:150px}
+  .dp-pics img{height:150px}
+  .dp-card .ref-cap{padding:9px 8px 11px;font-size:12.5px}
+
+  /* ---- оборудование ---- */
+  .z10-equip{padding:52px 0 44px}
+  .eq-grid{margin-top:26px;gap:14px}
+  .eq-card{padding:22px 18px;border-radius:20px}
+  .eq-card h3{font-size:17px}
+  .eq-card .ck2-list{margin-top:14px}
+  .eq-card .ck2-list li{font-size:13.5px;line-height:19px}
+  .eq-card .ck2-list li+li{margin-top:9px}
+  .eq-pink .ck2-list li+li{margin-top:8px}
+  .eq-intro{margin-top:10px;font-size:13.5px;line-height:20px}
+
+  /* ---- отзывы ---- */
+  .z10-reviews{padding:48px 0 34px}
+  .z10-reviews .rev-track-wrap{margin-top:26px;padding:4px 0 6px}
+  .z10-reviews .rev-card{width:100%;padding:20px 18px 18px;gap:10px}
+  .z10-reviews .rev-text{font-size:13.5px;line-height:1.55}
+  .rev-ava{width:40px;height:40px;font-size:17px}
+  .rev-name b{font-size:14.5px}
+  .rev-badge{padding:5px 11px;font-size:11px}
+  .z10-reviews .revs-bottom{margin-top:18px}
+  .z10-reviews .revs-bottom .btn-pink{padding:14px 26px;font-size:14.5px}
+
+  /* ---- форма заказа ---- */
+  .z10-order{padding-top:44px}
+  .z10-order .order-card{padding:24px 18px 26px}
+  .ord-info h2{font-size:27px;line-height:34px}
+  .ord-lead{margin-top:14px;font-size:14px;line-height:22px}
+  .ord-list{margin-top:16px;gap:12px}
+  .ord-list li{padding-left:22px;font-size:14px;line-height:20px}
+  .ord-phone{margin-top:18px;gap:12px}
+  .ord-phone i{width:38px;height:38px;font-size:16px}
+  .ord-phone b{font-size:16px}
+  .ord-form{gap:8px;padding-top:16px}
+  .ord-form .inputs-row{gap:10px}
+  .ord-form .inp{padding:14px;font-size:14.5px}
+  .ord-form .select{padding:14px;font-size:14.5px}
+  .ord-form .photo-row{margin-top:2px;gap:10px}
+  .ord-form .photo-add{width:56px;height:56px;border-radius:12px;font-size:20px}
+  .photo-hint{font-size:12.5px;line-height:1.45}
+  .ord-form .textarea{min-height:76px;margin-top:0;padding:14px;font-size:14.5px}
+  .ord-form .order-send{margin-top:4px;padding:16px}
+  .ord-form .order-note{margin-top:6px;font-size:11.5px;line-height:17px}
+
+  /* ---- частые вопросы ---- */
+  .z10-faq{padding-top:56px}
+  .z10-faq .faq-list{margin-top:26px;gap:10px}
+  .z10-faq .faq-item{padding:16px 18px;border-radius:16px}
+  .z10-faq .faq-q h3{font-size:15px}
+  .z10-faq .faq-a{padding-top:10px;font-size:13.5px;line-height:20px}
+
+  /* ---- другие услуги ---- */
+  .z10-strip{padding:44px 0 40px}
+  .z10-strip-head h2{font-size:24px}
+  .z10-all-link{font-size:13.5px}
+  .strip-grid{margin-top:18px;grid-template-columns:1fr 1fr;gap:12px}
+  .strip-item{background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden;padding-bottom:13px}
+  .strip-item img{height:130px;object-fit:cover;border-radius:0}
+  .strip-item span{margin-top:11px;padding:0 12px;text-align:left;font-size:13.5px;line-height:1.3}
+
+  /* ---- футер ---- */
+  .footer{padding:28px 0 18px}
+  .footer-in{gap:18px}
+  .footer-cols{gap:16px 12px}
+  .footer-col{gap:10px}
+  .footer-col h4{margin:0;font-size:14px}
+  .footer-logo{width:56px;height:56px}
+  .footer-desc{font-size:12.5px;line-height:1.5}
+  .footer-links{gap:6px}
+  .footer-links a{font-size:13px}
+  .socials{gap:8px}
+  .soc{padding:6px 11px;font-size:11.5px}
+  .contact{gap:2px}
+  .contact span{font-size:11px}
+  .contact b{font-size:14px}
+  .hours{gap:6px}
+  .hours-row{width:100%;font-size:13px}
+  .wa-btn{padding:11px 16px 10px;font-size:12.5px}
+  .footer-bottom{padding-top:16px;gap:6px;font-size:12px}
+  .requisites{margin-top:10px;font-size:11px;line-height:1.6;color:var(--muted)}
+}
+
+
+/* ===== zooklining: плотнее вертикальный ритм (mobile) ===== */
+@media (max-width: 860px){
+  .z10-band{margin-top:40px;padding-top:48px}
+  .z10-safety{margin-top:48px}
+  .z10-komu{padding:48px 0 44px}
+}

@@ -1,0 +1,91 @@
+/* ============================================================
+   Чистота в деталях — плавные анимации
+   Включаются классом .has-anim на <html> (js/anim.js).
+   Без JS / при prefers-reduced-motion контент виден сразу.
+   ============================================================ */
+
+/* ---------- 1. Scroll reveal ---------- */
+.has-anim .rv{
+  opacity:0;
+  translate:0 26px;
+  transition:opacity .72s cubic-bezier(.22,.61,.36,1),
+             translate .72s cubic-bezier(.22,.61,.36,1);
+  transition-delay:var(--rvd,0ms);
+}
+.has-anim .rv.in{opacity:1;translate:0 0}
+
+/* фото-колонка hero: мягкий въезд с лёгким зумом */
+.has-anim .rv.rv-photo{
+  translate:0 22px;scale:.965;
+  transition:opacity .95s cubic-bezier(.22,.61,.36,1),
+             translate .95s cubic-bezier(.22,.61,.36,1),
+             scale .95s cubic-bezier(.22,.61,.36,1);
+}
+.has-anim .rv.rv-photo.in{translate:0 0;scale:1}
+
+/* ---------- 2. Header при скролле ---------- */
+.has-anim .header{transition:box-shadow .35s ease}
+.has-anim .header.scrolled{box-shadow:0 12px 32px -20px rgba(120,50,75,.28)}
+
+/* ---------- 3. FAQ — плавный аккордеон ---------- */
+.faq-a{
+  display:block;
+  max-height:0;overflow:hidden;opacity:0;
+  transition:max-height .45s cubic-bezier(.3,.7,.3,1),
+             opacity .35s ease,
+             padding-top .45s cubic-bezier(.3,.7,.3,1);
+}
+.faq-item:not(.open) .faq-a{padding-top:0}
+.faq-item.open .faq-a{max-height:820px;opacity:1}
+.faq-item{transition:box-shadow .3s ease,border-color .3s ease}
+.faq-item:hover{box-shadow:var(--shadow-md)}
+.faq-tog{transition:.28s ease}
+.faq-tog:active{transform:scale(.9)}
+
+/* ---------- 4. Карусели — мягкий easing ---------- */
+.rev-track,.refs-track{transition:transform .55s cubic-bezier(.25,.8,.35,1)}
+.dot{transition:background-color .3s ease,transform .3s ease}
+.dot.on{transform:scale(1.18)}
+.arrow-btn{transition:background-color .3s ease,transform .3s ease}
+.arrow-btn:active{transform:scale(.9)}
+
+/* ---------- 5. Кнопки ---------- */
+.btn,.header-cta,.order-send,.wide-btn,.wa-btn{
+  transition:background-color .28s ease,transform .28s ease,
+             box-shadow .28s ease,border-color .28s ease,color .28s ease;
+}
+.btn:active,.header-cta:active,.order-send:active,
+.wide-btn:active,.wa-btn:active{transform:scale(.975)}
+
+/* ---------- 6. Карточки — сглаженные hover-подъёмы ---------- */
+.cat-card,.other-card,.hs-os,.p8-ocard,.p11-ocard,
+.serv-card,.ref-card,.rev-card,.team-card{
+  transition:transform .34s cubic-bezier(.3,.7,.3,1),
+             box-shadow .34s ease,
+             background-color .34s ease,
+             border-color .34s ease;
+}
+.serv-card:hover,.ref-card:hover,.rev-card:hover,.team-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow-md);
+}
+
+/* ---------- 7. Декоративные blob — медленное парение ---------- */
+.blob{animation:blobFloat 17s ease-in-out infinite alternate}
+.blob2{animation-duration:21s;animation-delay:-7s}
+.blob3{animation-duration:19s;animation-delay:-3s}
+@keyframes blobFloat{
+  from{transform:translateY(0) translateX(0)}
+  to{transform:translateY(-34px) translateX(14px)}
+}
+
+/* ---------- 8. Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;
+    transition-delay:0ms !important;
+  }
+  html{scroll-behavior:auto}
+}
